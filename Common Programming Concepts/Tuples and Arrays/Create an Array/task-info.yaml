@@ -18,8 +18,8 @@ files:
           offset: 24
         initialized_from_dependency: false
         encrypted_possible_answer: 9sNYkhdWX+a+VGmmRvmBfAgnkwRT3l7I5gC4+W41G2dHhTdtfe3Up7wQFvjhUrEhht1ZF8iCUpD91VIcGIuBdA==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Programming+Concepts+/+Tuples+and+Arrays+/+Create+an+Array
 status: Solved
