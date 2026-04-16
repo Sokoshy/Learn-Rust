@@ -1,0 +1,5 @@
+### Les chaînes ne sont pas si simples
+
+En résumé, les chaînes sont compliquées. Différents langages de programmation font des choix différents quant à la manière de présenter cette complexité au programmeur. Rust a choisi de faire de la gestion correcte des données `String` le comportement par défaut de tous les programmes Rust, ce qui signifie que les programmeurs doivent réfléchir davantage à la gestion des données UTF-8 dès le départ. Ce compromis expose plus de complexité des chaînes qu'il n'y paraît dans d'autres langages de programmation, mais cela vous empêche d'avoir à gérer des erreurs impliquant des caractères non-ASCII plus tard dans votre cycle de développement.
+
+_Vous pouvez vous référer au chapitre suivant dans le livre sur le langage Rust : [Chaînes de caractères](https://doc.rust-lang.org/stable/book/ch08-02-strings.html)_

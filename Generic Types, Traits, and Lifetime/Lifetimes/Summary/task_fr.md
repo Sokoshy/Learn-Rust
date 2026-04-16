@@ -1,0 +1,7 @@
+## Résumé
+
+Nous avons couvert beaucoup de choses dans ce chapitre ! Maintenant que vous connaissez les paramètres de type générique, les traits et les bornes de traits, ainsi que les paramètres de durée de vie générique, vous êtes prêt à écrire du code sans répétition qui fonctionne dans de nombreuses situations différentes. Les paramètres de type générique vous permettent d'appliquer le code à différents types. Les traits et les bornes de traits garantissent que même si les types sont génériques, ils auront le comportement dont le code a besoin. Vous avez appris à utiliser les annotations de durée de vie pour vous assurer que ce code flexible n'aura pas de références pendantes. Et toute cette analyse se fait au moment de la compilation, ce qui n'affecte pas la performance à l'exécution !
+
+Que vous le croyiez ou non, il y a beaucoup plus à apprendre sur les sujets que nous avons abordés dans ce chapitre : le chapitre 17 traite des objets de trait, qui sont une autre façon d'utiliser les traits. Il existe également des scénarios plus complexes impliquant des annotations de durée de vie que vous n'aurez besoin de comprendre que dans des situations très avancées ; pour ceux-ci, vous devriez lire la [Référence Rust][reference]. Mais ensuite, vous apprendrez comment écrire des tests en Rust pour vous assurer que votre code fonctionne comme il se doit.
+
+[reference]: https://doc.rust-lang.org/reference/index.html

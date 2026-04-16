@@ -1,0 +1,5 @@
+## Résumé
+
+Rust vous permet de diviser un paquet en plusieurs crates et une crate en modules afin que vous puissiez vous référer aux éléments définis dans un module depuis un autre module. Vous pouvez faire cela en spécifiant des chemins absolus ou relatifs. Ces chemins peuvent être importés dans la portée avec une déclaration `use` afin que vous puissiez utiliser un chemin plus court pour de multiples utilisations de l'élément dans cette portée. Le code des modules est privé par défaut, mais vous pouvez rendre les définitions publiques en ajoutant le mot-clé `pub`.
+
+_Vous pouvez vous référer au chapitre suivant dans le livre *The Rust Programming Language* : [Séparer les modules en différents fichiers](https://doc.rust-lang.org/stable/book/ch07-05-separating-modules-into-different-files.html#separating-modules-into-different-files)_

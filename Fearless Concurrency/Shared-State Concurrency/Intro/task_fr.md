@@ -1,0 +1,7 @@
+## Concurrence à état partagé
+
+Le passage de messages est une bonne méthode pour gérer la concurrence, mais ce n'est pas la seule. Considérons à nouveau cette partie du slogan de la documentation du langage Go : « ne communiquez pas en partageant la mémoire ».
+
+À quoi ressemblerait une communication par le partage de mémoire ? De plus, pourquoi les adeptes du passage de messages ne l'utiliseraient-ils pas et feraient-ils le contraire à la place ?
+
+D'une certaine manière, les canaux dans n'importe quel langage de programmation sont similaires à la propriété exclusive, car une fois que vous transférez une valeur via un canal, vous ne devriez plus utiliser cette valeur. La concurrence avec mémoire partagée est comme une propriété multiple : plusieurs threads peuvent accéder au même emplacement mémoire en même temps. Comme vous pouvez le voir au [Chapitre 15](https://doc.rust-lang.org/book/ch15-00-smart-pointers.html) du Rust Book, où les pointeurs intelligents rendent possible la propriété multiple, celle-ci peut ajouter de la complexité car ces différents propriétaires nécessitent une gestion. Le système de types et les règles de propriété de Rust aident grandement à assurer une gestion correcte. Pour un exemple, examinons les mutexes, l'un des primitifs de concurrence les plus courants pour la mémoire partagée.

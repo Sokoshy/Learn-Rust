@@ -1,0 +1,5 @@
+## Organisation des tests
+
+Comme mentionné au début du chapitre, tester est une discipline complexe, et différentes personnes utilisent une terminologie et une organisation différentes. La communauté Rust considère les tests en termes de deux catégories principales : *tests unitaires* et *tests d'intégration*. Les tests unitaires sont petits et plus ciblés, testant un module à la fois isolément, et peuvent tester des interfaces privées. Les tests d'intégration sont entièrement externes à votre bibliothèque et utilisent votre code de la même manière que tout autre code externe le ferait, en utilisant uniquement l'interface publique et en pouvant tester plusieurs modules par test.
+
+Écrire les deux types de tests est important pour s'assurer que les parties de votre bibliothèque font ce que vous attendez d'elles, séparément et ensemble.

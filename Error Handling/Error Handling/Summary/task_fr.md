@@ -1,0 +1,5 @@
+## Résumé
+
+Les fonctionnalités de gestion des erreurs de Rust sont conçues pour vous aider à écrire un code plus robuste. La macro `panic!` signale que votre programme se trouve dans un état qu'il ne peut pas gérer et vous permet d'indiquer au processus de s'arrêter plutôt que d'essayer de continuer avec des valeurs invalides ou incorrectes. L'énumération `Result` utilise le système de types de Rust pour indiquer que des opérations pourraient échouer d'une manière que votre code pourrait récupérer. Vous pouvez utiliser `Result` pour indiquer au code qui appelle votre code qu'il doit également gérer un succès ou un échec potentiel. Utiliser `panic!` et `Result` dans les situations appropriées rendra votre code plus fiable face aux problèmes inévitables.
+
+Consultez la section avec des idées et des lignes directrices sur ce qu'il faut utiliser dans votre propre code, `panic` ou `Result`, dans [The Book](https://doc.rust-lang.org/stable/book/ch09-03-to-panic-or-not-to-panic.html).

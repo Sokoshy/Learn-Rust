@@ -1,0 +1,3 @@
+## Stocker des listes de valeurs avec des vecteurs
+
+Le premier type de collection que nous allons examiner est `Vec<T>`, également connu sous le nom de *vecteur*. Les vecteurs vous permettent de stocker plusieurs valeurs dans une seule structure de données qui place toutes les valeurs côte à côte en mémoire. Les vecteurs ne peuvent stocker que des valeurs du même type. Ils sont utiles lorsque vous avez une liste d'éléments, comme les lignes de texte dans un fichier ou les prix des articles dans un panier d'achat.

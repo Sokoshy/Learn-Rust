@@ -1,0 +1,11 @@
+## Types génériques, traits et durées de vie
+
+Chaque langage de programmation dispose d'outils pour gérer efficacement la duplication de concepts. En Rust, l'un de ces outils est la *généricité*. Les génériques sont des remplaçants abstraits pour des types concrets ou d'autres propriétés. Lorsque nous écrivons du code, nous pouvons exprimer le comportement des génériques ou comment ils se rapportent à d'autres génériques sans savoir ce qui prendra leur place lors de la compilation et de l'exécution du code.
+
+De la même manière qu'une fonction prend des paramètres avec des valeurs inconnues pour exécuter le même code sur plusieurs valeurs concrètes, les fonctions peuvent prendre des paramètres d'un type générique plutôt que d'un type concret, comme `i32` ou `String`. En fait, nous avons déjà utilisé des génériques dans le chapitre "Enums" avec `Option<T>`, dans "Collections Communes" avec `Vec<T>` et `HashMap<K, V>`, et dans "Erreurs Récupérables et Irrécupérables" avec `Result<T, E>`. Dans ce chapitre, vous explorerez comment définir vos propres types, fonctions et méthodes avec les génériques !
+
+Tout d'abord, nous passerons en revue comment extraire une fonction pour réduire la duplication de code. Ensuite, nous utiliserons la même technique pour créer une fonction générique à partir de deux fonctions qui ne diffèrent que par les types de leurs paramètres. Nous expliquerons également comment utiliser des types génériques dans les définitions de structures et d'enums.
+
+Ensuite, vous apprendrez à utiliser les *traits* pour définir un comportement de manière générique. Vous pouvez combiner les traits avec des types génériques pour restreindre un type générique uniquement aux types qui ont un comportement particulier, au lieu de n'importe quel type.
+
+Enfin, nous discuterons des *durées de vie*, une variété de génériques qui fournissent au compilateur des informations sur la manière dont les références se rapportent les unes aux autres. Les durées de vie nous permettent d'emprunter des valeurs dans de nombreuses situations tout en permettant au compilateur de vérifier que les références sont valides.

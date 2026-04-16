@@ -1,0 +1,11 @@
+## Intro
+
+Dans son essai de 1972 « The Humble Programmer », Edsger W. Dijkstra a déclaré que « Les tests de programme peuvent être un moyen très efficace de montrer la présence de bogues, mais ils sont désespérément inadéquats pour prouver leur absence. » Cela ne signifie pas que nous ne devrions pas essayer de tester autant que possible !
+
+La correction de nos programmes est la mesure dans laquelle notre code fait ce que nous avons l'intention qu'il fasse. Rust est conçu avec une grande attention à la correction des programmes, mais la correction est complexe et difficile à prouver. Le système de types de Rust assume une grande partie de cette charge, mais le système de types ne peut pas détecter tous les types d'erreurs. Ainsi, Rust inclut la prise en charge de l'écriture de tests logiciels automatisés dans le langage.
+
+Par exemple, disons que nous écrivons une fonction appelée `add_two` qui ajoute 2 à n'importe quel nombre qui lui est transmis. La signature de cette fonction accepte un entier en tant que paramètre et renvoie un entier en tant que résultat. Lorsque nous implémentons et compilons cette fonction, Rust effectue toutes les vérifications de type et de prêt que vous avez apprises jusqu'à présent pour s'assurer, par exemple, que nous ne passons pas une valeur `String` ou une référence invalide à cette fonction. Mais Rust *ne peut pas* vérifier que cette fonction fera précisément ce que nous entendons, c'est-à-dire renvoyer le paramètre plus 2 plutôt que, disons, le paramètre plus 10 ou le paramètre moins 50 ! C'est là que les tests interviennent.
+
+Nous pouvons écrire des tests qui affirment, par exemple, que lorsque nous passons `3` à la fonction `add_two`, la valeur renvoyée est `5`. Nous pouvons exécuter ces tests chaque fois que nous apportons des modifications à notre code pour nous assurer que tout comportement correct existant n'a pas changé.
+
+Les tests sont une compétence complexe : bien que nous ne puissions pas couvrir tous les détails sur la façon d'écrire de bons tests en un seul chapitre, nous discuterons des mécanismes des fonctionnalités de test de Rust. Nous parlerons des annotations et des macros disponibles lors de l'écriture de vos tests, du comportement par défaut et des options fournies pour exécuter vos tests, et de la manière d'organiser les tests en tests unitaires et en tests d'intégration.

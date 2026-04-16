@@ -1,0 +1,3 @@
+## Types de données génériques
+
+Nous pouvons utiliser des génériques pour créer des définitions pour des éléments comme les signatures de fonctions ou les structures, que nous pouvons ensuite utiliser avec de nombreux types de données concrets différents. Commençons par examiner comment définir des fonctions, des structures, des énumérations et des méthodes en utilisant des génériques. Ensuite, nous aborderons comment les génériques affectent les performances du code.

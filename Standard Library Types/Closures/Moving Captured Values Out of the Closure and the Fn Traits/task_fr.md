@@ -1,0 +1,9 @@
+### Sortir les valeurs capturées de la fermeture et les traits `Fn`
+
+Une fois qu'une fermeture a capturé une référence ou a déplacé une valeur dans la fermeture, le code dans le corps de la fonction affecte également ce qui se passe avec les références ou les valeurs suite à l'appel de la fonction. Le corps d'une fermeture peut déplacer une valeur capturée hors de la fermeture, peut modifier la valeur capturée, ne peut ni déplacer ni modifier la valeur capturée, ou peut ne rien capturer de l'environnement. La manière dont une fermeture capture et gère les valeurs de l'environnement affecte les traits que la fermeture implémente. Les traits permettent aux fonctions et à des structures de spécifier quels types de fermetures elles peuvent utiliser.
+
+Les fermetures implémenteront automatiquement un, deux ou les trois de ces traits `Fn`, de manière additive :
+
+1. `FnOnce` s'applique aux fermetures qui peuvent être appelées au moins une fois. Toutes les fermetures implémentent ce trait, car toutes les fermetures peuvent être appelées. Si une fermeture déplace des valeurs capturées hors de son corps, alors cette fermeture n'implémente que `FnOnce` et aucun des autres traits `Fn`, car elle ne peut être appelée qu'une seule fois.
+2. `FnMut` s'applique aux fermetures qui ne déplacent pas de valeurs capturées hors de leur corps, mais qui peuvent modifier les valeurs capturées. Ces fermetures peuvent être appelées plusieurs fois.
+3. `Fn` s'applique aux fermetures qui ne déplacent pas de valeurs capturées hors de leur corps et qui ne modifient pas les valeurs capturées. Ces fermetures peuvent être appelées plusieurs fois sans modifier leur environnement, ce qui est important dans des cas tels que l'appel d'une fermeture plusieurs fois de manière concurrente. Les fermetures qui ne capturent rien de leur environnement implémentent `Fn`.

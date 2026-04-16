@@ -1,0 +1,5 @@
+## Résumé
+
+Les fonctionnalités de test de Rust fournissent un moyen de spécifier comment le code doit fonctionner pour s'assurer qu'il continue de fonctionner comme vous l'attendez, même lorsque vous apportez des modifications. Les tests unitaires exercent différentes parties d'une bibliothèque séparément et peuvent tester les détails d'implémentation privés. Les tests d'intégration vérifient que de nombreuses parties de la bibliothèque fonctionnent correctement ensemble, et ils utilisent l'API publique de la bibliothèque pour tester le code de la même manière que le fera le code externe. Même si le système de types de Rust et les règles de propriété aident à prévenir certains types de bugs, les tests sont toujours importants pour réduire les bugs logiques liés à la manière dont votre code est censé se comporter.
+
+_Vous pouvez vous référer au chapitre suivant du livre The Rust Programming Language : [Sous-modules dans les tests d'intégration](https://doc.rust-lang.org/stable/book/ch11-03-test-organization.html#submodules-in-integration-tests)_

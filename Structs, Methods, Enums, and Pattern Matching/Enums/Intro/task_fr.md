@@ -1,0 +1,5 @@
+## Enums et correspondance de motifs
+
+Dans ce chapitre, nous allons examiner les *énumérations*, également appelées *enums*. Les enums vous permettent de définir un type en énumérant ses *variantes* possibles. Tout d'abord, nous allons définir et utiliser un enum pour montrer comment un enum peut encoder du sens avec des données. Ensuite, nous explorerons un enum particulièrement utile, appelé `Option`, qui exprime qu'une valeur peut être quelque chose ou rien. Puis, nous verrons comment la correspondance de motifs dans l'expression `match` facilite l'exécution de code différent pour différentes valeurs d'un enum. Enfin, nous aborderons comment la construction `if let` est une autre expression idiomatique pratique et concise à votre disposition pour gérer les enums dans votre code.
+
+Les enums sont une fonctionnalité présente dans de nombreux langages, mais leurs capacités diffèrent selon le langage. Les enums de Rust sont les plus similaires aux *types de données algébriques* des langages fonctionnels, tels que F#, OCaml et Haskell.

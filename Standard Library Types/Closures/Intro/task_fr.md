@@ -1,0 +1,3 @@
+## Fermetures : fonctions anonymes pouvant capturer leur environnement
+
+Les fermetures de Rust sont des fonctions anonymes que vous pouvez enregistrer dans une variable ou passer comme arguments à d'autres fonctions. Vous pouvez créer la fermeture à un endroit donné puis appeler la fermeture pour l'évaluer dans un contexte différent. Contrairement aux fonctions, les fermetures peuvent capturer des valeurs de la portée dans laquelle elles sont définies. Nous allons démontrer comment ces fonctionnalités de fermeture permettent la réutilisation de code et la personnalisation du comportement.
