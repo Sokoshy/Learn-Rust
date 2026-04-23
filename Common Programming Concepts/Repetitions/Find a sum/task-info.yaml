@@ -15,8 +15,8 @@ files:
           offset: 42
         initialized_from_dependency: false
         encrypted_possible_answer: KYbu5T9bs/cneb2aNJ0rxkcFtGAo3c5lTQJi9s58ztM=
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
       - offset: 70
         length: 14
         placeholder_text: /* TODO */
@@ -25,8 +25,8 @@ files:
           offset: 63
         initialized_from_dependency: false
         encrypted_possible_answer: gFfEf2FAm/djfd3JA1Bvzg==
-        selected: true
-        status: Solved
+        selected: false
+        status: Unchecked
     learner_created: false
   - name: Cargo.toml
     visible: false
