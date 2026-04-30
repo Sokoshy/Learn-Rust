@@ -5,17 +5,17 @@ files:
     visible: true
     placeholders:
       - offset: 21
-        length: 8
+        length: 9
         placeholder_text: /*TODO*/
         initial_state:
           length: 8
           offset: 21
         initialized_from_dependency: false
         encrypted_possible_answer: HHs/Xh3TetLgxuG0oo7+fg==
-        selected: false
-        status: Unchecked
-      - offset: 34
-        length: 8
+        selected: true
+        status: Solved
+      - offset: 35
+        length: 4
         placeholder_text: /*TODO*/
         initial_state:
           length: 8
@@ -23,17 +23,17 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Tf9c8oedbSvEpZfxODPsIA==
         selected: false
-        status: Unchecked
-      - offset: 442
-        length: 2
+        status: Solved
+      - offset: 439
+        length: 32
         placeholder_text: ..
         initial_state:
           length: 2
           offset: 442
         initialized_from_dependency: false
         encrypted_possible_answer: owJHsxX0/IBia/PCY2iw40IqCou3F0OF8AjhqYKp3qRTgSlrKA9BdrvMJYQrJuGw
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -45,5 +45,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Understanding+Ownership+/+The+Slice+Type+/+Trim+a+String
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Thu, 30 Apr 2026 08:22:01 UTC"
 record: -1
