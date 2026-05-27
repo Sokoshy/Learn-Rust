@@ -15,7 +15,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Unchecked
+        status: Solved
       - offset: 51
         length: 3
         placeholder_text: pub
@@ -25,13 +25,13 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: runConfigurations/Build.run.xml
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Modules+/+Modules+/+Exposing+Paths+with+the+pub+Keyword
-status: Unchecked
+status: Solved
 record: -1
 solution_hidden: true
 post_submission_on_open: true
