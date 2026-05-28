@@ -17,7 +17,7 @@ files:
         length: 155
         placeholder_text: /* Add use statements here */
         initial_state:
-          length: 29
+          length: 155
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: Cy55l4A5Hl+I7c8CzfSSn8zUzR2MMfJAd+1jyDbOvRELM+RQBhdd6pUmvewzLCmlH3Yx5OsbiOsollDa88XCQ6/L/RTchIfeeD0MTS95QCrokpefZYpMeji6RF0Ioxydeu2prYHLlaGHbGhHQQGX8mAAwY5uRuNWcxTULr6W29HSVW0eL5CBzqZ0IsjF6ovt/XjWXKsE249+dT0QT7C9pQsyMHpX1Aso/uy6fHE4nKA=
@@ -27,8 +27,8 @@ files:
         length: 18
         placeholder_text: /* What's Alice doing here? */
         initial_state:
-          length: 30
-          offset: 137
+          length: 18
+          offset: 288
         initialized_from_dependency: false
         encrypted_possible_answer: 44q96sd5Yzk1SxMEbCvqlPtgE9fqkpFVLMcRzrq0/cSqHMsQdDss9cGpD0OZ1DGL
         selected: true
@@ -65,7 +65,7 @@ files:
         length: 3
         placeholder_text: /* ??? */
         initial_state:
-          length: 9
+          length: 3
           offset: 0
         initialized_from_dependency: false
         encrypted_possible_answer: Ek5n1xVO6F+uh3wYJynyng==
