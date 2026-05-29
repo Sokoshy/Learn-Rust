@@ -5,17 +5,17 @@ files:
     visible: true
     placeholders:
       - offset: 44
-        length: 57
+        length: 24
         placeholder_text: "/* TODO: Remove whitespace from both ends of a string! */"
         initial_state:
           length: 57
           offset: 44
         initialized_from_dependency: false
         encrypted_possible_answer: Eknb9TnhYi0XAuajtsDmIrfBiW+3mVBceW5eCgQzGqY=
-        selected: false
-        status: Unchecked
-      - offset: 152
-        length: 74
+        selected: true
+        status: Solved
+      - offset: 115
+        length: 31
         placeholder_text: "/* TODO: Add \" world!\" to the string! There's multiple ways\
       \ to do this! */"
         initial_state:
@@ -23,10 +23,10 @@ files:
           offset: 152
         initialized_from_dependency: false
         encrypted_possible_answer: OUDT2+puZVueebHzAcvRENfUGuaGm/tx6jOBx+o0/89LBY18qCKWl/rOmFu++LlW
-        selected: false
-        status: Unchecked
-      - offset: 277
-        length: 57
+        selected: true
+        status: Solved
+      - offset: 197
+        length: 33
         placeholder_text: "/* TODO: Replace \"cars\" in the string with \"balloons\"!\
       \ */"
         initial_state:
@@ -34,8 +34,8 @@ files:
           offset: 277
         initialized_from_dependency: false
         encrypted_possible_answer: KSBOl1iExiVHtA8xia5cRN8BHSXNiIHBZ5inm72iqpEuUrZ+MERE6BUmz2tzz7QL
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -47,5 +47,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Strings+/+Process+Some+Strings
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 29 May 2026 09:47:55 UTC"
 record: -1
