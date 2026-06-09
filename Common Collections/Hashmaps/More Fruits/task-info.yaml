@@ -4,8 +4,8 @@ files:
   - name: src/lib.rs
     visible: true
     placeholders:
-      - offset: 406
-        length: 120
+      - offset: 454
+        length: 0
         placeholder_text: // Put new fruits if not already present. Note that you are
           not allowed to put any type of fruit that's already present!
         initial_state:
@@ -13,8 +13,8 @@ files:
           offset: 406
         initialized_from_dependency: false
         encrypted_possible_answer: dQ3+Piw/yG1CQR3+FbJGW7heBQYcGp8AiWlV48jqjMpuqsRizcAUsrNIsqc+TMq0
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -26,5 +26,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Common+Collections+/+Hashmaps+/+More+Fruits
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Tue, 09 Jun 2026 10:13:11 UTC"
 record: -1
