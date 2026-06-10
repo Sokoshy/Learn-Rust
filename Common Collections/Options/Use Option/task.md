@@ -1,3 +1,4 @@
+
 ## Want some ice cream?
 
 We have the `maybe_ice_cream` function that returns how much ice cream there is left in the fridge.
