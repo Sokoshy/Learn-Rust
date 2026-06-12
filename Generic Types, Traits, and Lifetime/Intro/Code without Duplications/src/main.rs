@@ -12,10 +12,13 @@ fn largest(list: &[i32]) -> &i32 {
 
 fn main() {
     let number_list = vec![34, 50, 25, 100, 65];
-    let result = largest(&number_list);
-    println!("The largest number is {}", result);
+    print_largest(&number_list);
 
     let number_list = vec![102, 34, 6000, 89, 54, 2, 43, 8];
-    let result = largest(&number_list);
+    print_largest(&number_list);
+}
+
+fn print_largest(number_list: &[i32]) {
+    let result = largest(number_list);
     println!("The largest number is {}", result);
 }
