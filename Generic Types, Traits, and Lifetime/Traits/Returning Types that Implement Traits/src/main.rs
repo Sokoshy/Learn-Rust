@@ -29,4 +29,5 @@ fn returns_summarizable() -> impl Summary {
 
 fn main() {
     // put you code here to launch it
+    println!("{}", returns_summarizable().summarize());
 }

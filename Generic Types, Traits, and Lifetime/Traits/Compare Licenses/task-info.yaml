@@ -5,17 +5,17 @@ files:
     visible: true
     placeholders:
       - offset: 313
-        length: 2
+        length: 13
         placeholder_text: ??
         initial_state:
           length: 2
           offset: 313
         initialized_from_dependency: false
         encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
-        selected: false
-        status: Unchecked
-      - offset: 331
-        length: 2
+        selected: true
+        status: Solved
+      - offset: 342
+        length: 13
         placeholder_text: ??
         initial_state:
           length: 2
@@ -23,7 +23,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: wLmZxrQixD9SDgDf9Bsn6w==
         selected: false
-        status: Unchecked
+        status: Solved
     learner_created: false
   - name: src/main.rs
     visible: true
@@ -35,5 +35,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Traits+/+Compare+Licenses
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 15 Jun 2026 12:25:12 UTC"
 record: -1
