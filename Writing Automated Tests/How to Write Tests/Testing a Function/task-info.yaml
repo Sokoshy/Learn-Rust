@@ -8,7 +8,7 @@ files:
     visible: true
     placeholders:
       - offset: 170
-        length: 10
+        length: 1
         placeholder_text: /* TODO */
         initial_state:
           length: 10
@@ -16,9 +16,9 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: 1jv4oI924ZkXwBNnWzUX/A==
         selected: false
-        status: Unchecked
-      - offset: 191
-        length: 85
+        status: Solved
+      - offset: 182
+        length: 76
         placeholder_text: /* Write a test function called `is_false_when_odd` here and
           test for `is_even(5)` */
         initial_state:
@@ -26,12 +26,15 @@ files:
           offset: 191
         initialized_from_dependency: false
         encrypted_possible_answer: KwsGSHEX/nRMgMSG/Qk5gb6vEnQgVMtygeqbizS/w6Dmy8bh1vL63quGLUrrrTCFAttpHIcozMyOIF+FaTzmlGLKOISUYRWOW1Wj1XDWu/Y=
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: tests/tests.rs
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Writing+Automated+Tests+/+How+to+Write+Tests+/+Testing+a+Function
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Jun 2026 15:59:06 UTC"
 record: -1
