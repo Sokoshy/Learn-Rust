@@ -5,15 +5,15 @@ files:
     visible: true
     placeholders:
       - offset: 3
-        length: 33
+        length: 46
         placeholder_text: "longest(x: &str, y: &str) -> &str"
         initial_state:
           length: 33
           offset: 3
         initialized_from_dependency: false
         encrypted_possible_answer: JT89TeHrMObO0XaRJDdSA6axvR7+286+LRVFlM4T8IJ2fUKqO+dUb4zeX6Yk7Amb
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: Cargo.toml
     visible: false
@@ -22,5 +22,8 @@ files:
     visible: false
     learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSdfJQgjsbDA4pPGpklj3vJnKNspd9wmEHzAgh6EkoJy2IiRuw/viewform?usp=pp_url&entry.2103429047=Generic+Types+Traits+and+Lifetime+/+Lifetimes+/+Specify+Lifetimes
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 17 Jun 2026 08:41:42 UTC"
 record: -1
